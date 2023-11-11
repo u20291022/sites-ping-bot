@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "name": "sites-ping-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that pings your sites and send response to you",
+  "main": "src/index.ts",
+  "repository": "https://github.com/u20291022/sites-ping-bot.git",
+  "author": "u20291022",
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.0"
+  }
+}
